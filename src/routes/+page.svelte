@@ -106,7 +106,7 @@
     </ul>
   </nav>
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-20"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 p-20"
   >
     {#each users as user}
       <div class="container">
@@ -118,7 +118,7 @@
             src={user.picture.large}
             alt="blog"
           />
-          <div class="p-4 w-50">
+          <div class="p-4">
             <h3 class="font-bold text-xl">
               {user.name.first}
               {user.name.last}, {user.dob.age}
