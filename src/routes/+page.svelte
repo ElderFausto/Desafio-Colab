@@ -106,19 +106,19 @@
     </ul>
   </nav>
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-10"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-20"
   >
     {#each users as user}
       <div class="container">
         <div
-          class="bg-slate-100 rounded-lg shadow-lg overflow-hidden flex h-60 cursor-pointer"
+          class="bg-slate-100 rounded-lg shadow-lg flex h-60 overflow-hidden cursor-pointer w-full"
         >
           <img
             class="w-60 box-border object-cover object-center gap-4"
             src={user.picture.large}
             alt="blog"
           />
-          <div class="p-4">
+          <div class="p-4 w-50">
             <h3 class="font-bold text-xl">
               {user.name.first}
               {user.name.last}, {user.dob.age}
