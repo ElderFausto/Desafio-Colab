@@ -116,10 +116,10 @@
           <img
             class="w-60 box-border object-cover object-center gap-4"
             src={user.picture.large}
-            alt="blog"
+            alt="profilepick"
           />
           <div class="p-4">
-            <h3 class="font-bold text-xl">
+            <h3 class="font-bold text-xl my-2">
               {user.name.first}
               {user.name.last}, {user.dob.age}
             </h3>
